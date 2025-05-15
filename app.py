@@ -28,8 +28,8 @@ if st.button("predict"):
 
     # Show image based on prediction
     if prediction == "Iris-setosa":
-        st.image("iris_setosa.jpg", caption="Iris-setosa", use_container_width=True)
+        st.image("irash_setosa.jpg", caption="Iris-setosa", use_container_width=True)
     elif prediction == "Iris-versicolor":
-        st.image("iris_versicolor.jpg", caption="Iris-versicolor", use_container_width=True)
+        st.image("irash_versicolor.jpg", caption="Iris-versicolor", use_container_width=True)
     elif prediction == "Iris-virginica":
-        st.image("iris_virginica.jpg", caption="Iris-virginica", use_container_width=True)
+        st.image("irash_verginca.jpg", caption="Iris-virginica", use_container_width=True)
